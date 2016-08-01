@@ -37,7 +37,7 @@ THE SOFTWARE.
 
     <groupId>com.hp.autonomy</groupId>
     <artifactId>foss-spring-boot-master-pom</artifactId>
-    <version>0.1.0</version>
+    <version>0.2.0</version>
     <packaging>pom</packaging>
 
     <name>HP Autonomy FOSS Spring Boot Master POM</name>
@@ -86,7 +86,7 @@ THE SOFTWARE.
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.7</java.version>
+        <java.version>1.8</java.version>
         <gpg.publicKeyring>${project.basedir}/public.gpg</gpg.publicKeyring>
         <gpg.secretKeyring>${project.basedir}/secret.gpg</gpg.secretKeyring>
     </properties>
