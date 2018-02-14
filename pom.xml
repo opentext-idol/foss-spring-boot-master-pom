@@ -32,12 +32,13 @@ THE SOFTWARE.
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.9.RELEASE</version>
+        <!-- If changing this, check the Jackson version override to see if it's still required -->
+        <version>1.5.10.RELEASE</version>
     </parent>
 
     <groupId>com.hp.autonomy</groupId>
     <artifactId>foss-spring-boot-master-pom</artifactId>
-    <version>0.4.0</version>
+    <version>0.5.0</version>
     <packaging>pom</packaging>
 
     <name>HP Autonomy FOSS Spring Boot Master POM</name>
@@ -89,6 +90,8 @@ THE SOFTWARE.
         <java.version>1.8</java.version>
         <gpg.publicKeyring>${project.basedir}/public.gpg</gpg.publicKeyring>
         <gpg.secretKeyring>${project.basedir}/secret.gpg</gpg.secretKeyring>
+        <!-- Override the Jackson dependencies to use 2.8.11 to avoid CVE-2017-17485 -->
+        <jackson.version>2.8.11</jackson.version>
     </properties>
 
     <distributionManagement>
