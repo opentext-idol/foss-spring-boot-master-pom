@@ -3,7 +3,7 @@
 
 The MIT License (MIT)
 
-Copyright (c) 2014-2015 Hewlett-Packard Development Company, L.P.
+Copyright (c) 2014-2018 Micro Focus International plc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -32,8 +32,7 @@ THE SOFTWARE.
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <!-- If changing this, check the Jackson version override to see if it's still required -->
-        <version>1.5.10.RELEASE</version>
+        <version>1.5.13.RELEASE</version>
     </parent>
 
     <groupId>com.hp.autonomy</groupId>
@@ -41,13 +40,13 @@ THE SOFTWARE.
     <version>0.6.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>HP Autonomy FOSS Spring Boot Master POM</name>
-    <description>Master Parent POM for HP Autonomy Spring Boot Applications</description>
+    <name>Micro Focus IDOL FOSS Spring Boot Master POM</name>
+    <description>Master Parent POM for Micro Focus IDOL Spring Boot Applications</description>
     <url>https://github.com/hpautonomy/foss-spring-boot-master-pom</url>
 
     <organization>
-        <name>Hewlett-Packard Enterprise</name>
-        <url>http://www.hpe.com/</url>
+        <name>Micro Focus</name>
+        <url>http://www.microfocus.com/</url>
     </organization>
 
     <inceptionYear>2015</inceptionYear>
@@ -61,16 +60,16 @@ THE SOFTWARE.
 
     <developers>
         <developer>
+            <name>Tung Jin Chew</name>
+            <email>tung-jin.chew@microfocus.com</email>
+            <organization>Micro Focus</organization>
+            <organizationUrl>http://www.microfocus.com</organizationUrl>
+        </developer>
+        <developer>
             <name>Alex Scown</name>
-            <email>alex.scown@hp.com</email>
-            <organization>HP</organization>
-            <organizationUrl>http://www.hp.com</organizationUrl>
         </developer>
         <developer>
             <name>Ivo Miller</name>
-            <email>ivo.miller@hpe.com</email>
-            <organization>Hewlett Packard Enterprise</organization>
-            <organizationUrl>http://www.hpe.com</organizationUrl>
         </developer>
     </developers>
 
@@ -90,8 +89,6 @@ THE SOFTWARE.
         <java.version>1.8</java.version>
         <gpg.publicKeyring>${project.basedir}/public.gpg</gpg.publicKeyring>
         <gpg.secretKeyring>${project.basedir}/secret.gpg</gpg.secretKeyring>
-        <!-- Override the Jackson dependencies to use 2.8.11 to avoid CVE-2017-17485 -->
-        <jackson.version>2.8.11</jackson.version>
     </properties>
 
     <distributionManagement>
