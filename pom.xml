@@ -32,7 +32,7 @@ THE SOFTWARE.
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.13.RELEASE</version>
+        <version>1.5.14.RELEASE</version>
     </parent>
 
     <groupId>com.hp.autonomy</groupId>
@@ -42,7 +42,7 @@ THE SOFTWARE.
 
     <name>Micro Focus IDOL FOSS Spring Boot Master POM</name>
     <description>Master Parent POM for Micro Focus IDOL Spring Boot Applications</description>
-    <url>https://github.com/hpautonomy/foss-spring-boot-master-pom</url>
+    <url>https://github.com/microfocus-idol/foss-spring-boot-master-pom</url>
 
     <organization>
         <name>Micro Focus</name>
@@ -74,14 +74,14 @@ THE SOFTWARE.
     </developers>
 
     <scm>
-        <connection>scm:git:git@github.com:hpautonomy/foss-spring-boot-master-pom.git</connection>
-        <developerConnection>scm:git:git@github.com:hpautonomy/foss-spring-boot-master-pom.git</developerConnection>
-        <url>git@github.com:hpautonomy/foss-spring-boot-master-pom.git</url>
+        <connection>scm:git:git@github.com:microfocus-idol/foss-spring-boot-master-pom.git</connection>
+        <developerConnection>scm:git:git@github.com:microfocus-idol/foss-spring-boot-master-pom.git</developerConnection>
+        <url>git@github.com:microfocus-idol/foss-spring-boot-master-pom.git</url>
     </scm>
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/hpautonomy/foss-spring-boot-master-pom/issues</url>
+        <url>https://github.com/microfocus-idol/foss-spring-boot-master-pom/issues</url>
     </issueManagement>
 
     <properties>
