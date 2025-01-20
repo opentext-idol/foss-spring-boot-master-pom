@@ -20,17 +20,22 @@
     <parent>
         <groupId>com.hp.autonomy</groupId>
         <artifactId>foss-master-pom</artifactId>
-        <version>3.2.0</version>
+        <version>3.3.0-SNAPSHOT</version>
     </parent>
 
     <groupId>com.hp.autonomy</groupId>
     <artifactId>foss-spring-boot-master-pom</artifactId>
-    <version>3.4.0</version>
+    <version>3.5.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>OpenText IDOL FOSS Spring Boot Master POM</name>
     <description>Master Parent POM for OpenText IDOL Spring Boot Applications</description>
     <url>https://github.com/opentext-idol/foss-spring-boot-master-pom</url>
+
+    <properties>
+        <!-- 3.4.1 has a websockets bug so can't be used in Data Admin -->
+        <springBootVersion>3.4.0</springBootVersion>
+    </properties>
 
     <organization>
         <name>OpenText</name>
@@ -75,7 +80,7 @@
                 <plugin>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
-                    <version>3.3.5</version>
+                    <version>${springBootVersion}</version>
                 </plugin>
             </plugins>
         </pluginManagement>
@@ -100,7 +105,7 @@
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
-                <version>3.3.5</version>
+                <version>${springBootVersion}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
