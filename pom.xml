@@ -33,8 +33,7 @@
     <url>https://github.com/opentext-idol/foss-spring-boot-master-pom</url>
 
     <properties>
-        <!-- 3.4.1 has a websockets bug so can't be used in Data Admin -->
-        <springBootVersion>3.4.0</springBootVersion>
+        <springBootVersion>3.4.2</springBootVersion>
     </properties>
 
     <organization>
