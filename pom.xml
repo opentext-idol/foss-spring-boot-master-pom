@@ -33,7 +33,7 @@
     <url>https://github.com/opentext-idol/foss-spring-boot-master-pom</url>
 
     <properties>
-        <springBootVersion>3.5.14</springBootVersion>
+        <springBootVersion>3.5.15</springBootVersion>
     </properties>
 
     <organization>
