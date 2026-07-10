@@ -33,7 +33,7 @@
     <url>https://github.com/opentext-idol/foss-spring-boot-master-pom</url>
 
     <properties>
-        <springBootVersion>3.5.15</springBootVersion>
+        <springBootVersion>4.1.0</springBootVersion>
     </properties>
 
     <organization>
@@ -99,29 +99,14 @@
             <dependency>
                 <groupId>io.netty</groupId>
                 <artifactId>netty-bom</artifactId>
-                <version>4.1.135.Final</version>
+                <version>4.2.15.Final</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>jakarta.platform</groupId>
                 <artifactId>jakarta.jakartaee-web-api</artifactId>
-                <version>10.0.0</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.logging.log4j</groupId>
-                <artifactId>log4j-api</artifactId>
-                <version>2.25.4</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.tomcat.embed</groupId>
-                <artifactId>tomcat-embed-core</artifactId>
-                <version>10.1.55</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.tomcat.embed</groupId>
-                <artifactId>tomcat-embed-websocket</artifactId>
-                <version>10.1.55</version>
+                <version>11.0.0</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
