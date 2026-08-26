@@ -20,7 +20,7 @@
     <parent>
         <groupId>com.hp.autonomy</groupId>
         <artifactId>foss-master-pom</artifactId>
-        <version>3.7.0</version>
+        <version>3.8.0</version>
     </parent>
 
     <groupId>com.hp.autonomy</groupId>
@@ -33,7 +33,7 @@
     <url>https://github.com/opentext-idol/foss-spring-boot-master-pom</url>
 
     <properties>
-        <springBootVersion>4.1.0</springBootVersion>
+        <springBootVersion>4.1.1</springBootVersion>
     </properties>
 
     <organization>
@@ -107,6 +107,21 @@
                 <groupId>jakarta.platform</groupId>
                 <artifactId>jakarta.jakartaee-web-api</artifactId>
                 <version>11.0.0</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-api</artifactId>
+                <version>2.25.5</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.tomcat.embed</groupId>
+                <artifactId>tomcat-embed-core</artifactId>
+                <version>11.0.25</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.tomcat.embed</groupId>
+                <artifactId>tomcat-embed-websocket</artifactId>
+                <version>11.0.25</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
